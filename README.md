@@ -21,22 +21,18 @@ Sumber data aplikasi ini berasal dari **feed JSON Berita Resmi Statistik (BRS)**
 3. **Sumber Data JSON**
 
    - Data berasal dari feed JSON _Berita Resmi Statistik_ BPS (https://bps.go.id).
-   - Setiap entri berisi metadata seperti judul, tanggal publikasi, dan isi teks.
-
-4. **REST API dengan Express**
-   - Menyediakan endpoint untuk pencarian dan integrasi konteks dengan Gemini.
-   - Dapat diintegrasikan ke aplikasi frontend, dashboard, atau chatbot analitik.
+   - Setiap entri berisi metadata seperti halaman dan teks dari dokumen.
 
 ---
 
 ## ⚙️ Teknologi yang Digunakan
 
-| Komponen              | Deskripsi                                   |
-| --------------------- | ------------------------------------------- |
-| **Node.js**           | Lingkungan runtime JavaScript               |
-| **Express.js**        | Framework server web REST API               |
-| **Google Gen AI SDK** | SDK resmi untuk mengakses LLM Gemini        |
-| **text-match**        | Library untuk pencarian teks berbasis BM25  |
+| Komponen              | Deskripsi                                  |
+| --------------------- | ------------------------------------------ |
+| **Node.js**           | Lingkungan runtime JavaScript              |
+| **Express.js**        | Framework server web REST API              |
+| **Google Gen AI SDK** | SDK resmi untuk mengakses LLM Gemini       |
+| **text-match**        | Library untuk pencarian teks berbasis BM25 |
 
 ---
 
@@ -48,5 +44,5 @@ Sumber data aplikasi ini berasal dari **feed JSON Berita Resmi Statistik (BRS)**
 4. Gemini menghasilkan jawaban berbasis konteks yang diberikan.
 
 ## Screenshot
-<img width="1579" height="963" alt="image" src="https://github.com/user-attachments/assets/47e98276-c1a1-42bb-957e-6a85258aada9" />
 
+<img width="1579" height="963" alt="image" src="https://github.com/user-attachments/assets/47e98276-c1a1-42bb-957e-6a85258aada9" />
