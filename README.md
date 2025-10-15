@@ -1,6 +1,6 @@
-# 🔍 Aplikasi Pencarian BM25 dengan Konteks Gemini
+# 🔍 Aplikasi Pencarian BM25
 
-Aplikasi Node.js yang melakukan **pencarian berbasis BM25 (keyword-based probabilistic ranking)**, kemudian mengirimkan hasil pencarian teratas sebagai **konteks** ke model bahasa besar (LLM) **Google Gemini** untuk menghasilkan ringkasan atau penjelasan berbasis data.  
+Aplikasi Javascript sederhana yang melakukan **pencarian berbasis BM25 (keyword-based probabilistic ranking)**, kemudian mengirimkan hasil pencarian teratas sebagai **konteks** ke model bahasa besar (LLM) **Google Gemini** untuk menghasilkan ringkasan atau penjelasan berbasis data.  
 Sumber data aplikasi ini berasal dari **feed JSON Berita Resmi Statistik (BRS)** milik [Badan Pusat Statistik (bps.go.id)](https://bps.go.id).
 
 ---
