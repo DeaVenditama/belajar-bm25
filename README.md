@@ -10,7 +10,7 @@ Sumber data aplikasi ini berasal dari **feed JSON Berita Resmi Statistik (BRS)**
 1. **Pencarian Berbasis BM25**
 
    - Menggunakan pustaka [text-match](https://github.com/ariya/text-match/tree/main) untuk menghitung skor BM25.
-   - Mengurutkan hasil pencarian berdasarkan relevansi kata kunci terhadap isi teks.
+   - Mengurutkan hasil pencarian berdasarkan skor kata kunci terhadap isi teks.
    - Cocok untuk pencarian berbasis teks panjang seperti dokumen _Berita Resmi Statistik_.
 
 2. **Integrasi LLM (Google Gemini)**
@@ -37,7 +37,6 @@ Sumber data aplikasi ini berasal dari **feed JSON Berita Resmi Statistik (BRS)**
 | **Express.js**        | Framework server web REST API               |
 | **Google Gen AI SDK** | SDK resmi untuk mengakses LLM Gemini        |
 | **text-match**        | Library untuk pencarian teks berbasis BM25  |
-| **JSON Feed BRS**     | Sumber data publikasi BPS dalam format JSON |
 
 ---
 
@@ -47,3 +46,7 @@ Sumber data aplikasi ini berasal dari **feed JSON Berita Resmi Statistik (BRS)**
 2. Sistem menghitung skor BM25 untuk setiap teks dalam dataset JSON BRS.
 3. Tiga hasil teratas digabung dan dikirim sebagai **konteks** ke Gemini.
 4. Gemini menghasilkan jawaban berbasis konteks yang diberikan.
+
+## Screenshot
+<img width="1579" height="963" alt="image" src="https://github.com/user-attachments/assets/47e98276-c1a1-42bb-957e-6a85258aada9" />
+
